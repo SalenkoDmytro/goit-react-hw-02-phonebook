@@ -1,0 +1,33 @@
+.form {
+  padding: 20px;
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+.label {
+  margin-top: 20px;
+  display: block;
+}
+
+.input {
+  margin-top: 10px;
+  display: flex;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(26, 140, 193);
+  border-radius: 5px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button:active {
+  border: 1px solid rgb(26, 140, 193);
+  background-color: rgb(26, 140, 193);
+}

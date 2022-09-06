@@ -1,0 +1,10 @@
+.input {
+  margin-top: 10px;
+  display: flex;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid rgb(26, 140, 193);
+  border-radius: 5px;
+}
